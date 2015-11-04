@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/AngularClass/ng-fx#readme",
   "dependencies": {
-    "ng-fx": "^2.0.1"
+    "ng-fx": "^2.0.3"
   }
 }
