@@ -18,6 +18,6 @@ angular.module('app.ngRepeat', [])
       });
       console.log(this.items)
     },
-    templateUrl: '/ng-repeat/ng-repeat-template.html'
+    templateUrl: 'ng-repeat-template.html'
   }
 })

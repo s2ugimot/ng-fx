@@ -15,6 +15,6 @@ angular.module('app.ngIf', [])
       this.demo_config = Demo;
       this.show = true;
     },
-    templateUrl: '/ng-if/ng-if-template.html'
+    templateUrl: 'ng-if-template.html'
   }
 })

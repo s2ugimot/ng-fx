@@ -1,3 +1,4 @@
+angular.module('templates', []);
 angular.module('app', [
   'ngMaterial',
   'ngAnimate',
@@ -6,11 +7,10 @@ angular.module('app', [
   'app.ngShowHide',
   'app.ngIf',
   'app.ngClass',
-  'app.ngRepeat'
-  
+  'app.ngRepeat',
+  'templates'
 ])
-.config(function($mdThemingProvider, $sceDelegateProvider, $locationProvider) {
-  $locationProvider.html5Mode(true);
+.config(function($mdThemingProvider, $sceDelegateProvider) {
   $mdThemingProvider.theme('default')
     .primaryPalette('blue-grey')
     .accentPalette('cyan');

@@ -14,6 +14,6 @@ angular.module('app.ngClass', [])
     controller: function(Demo) {
       this.demo_config = Demo;
     },
-    templateUrl: '/ng-class/ng-class-template.html'
+    templateUrl: 'ng-class-template.html'
   }
 })
