@@ -111,7 +111,7 @@ angular.module('app', [
     templateUrl: 'promotion-footer.html',
     controllerAs: 'vm',
     controller: function() {
-      this.githubStarsUrl = `https://ghbtns.com/github-btn.html?user=${this.github}&repo=ngFx&type=star&count=true&size=large`
+      this.githubStarsUrl = `https://ghbtns.com/github-btn.html?user=${this.github}&repo=ng-fx&type=star&count=true&size=large`
     }
   }
 });
