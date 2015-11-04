@@ -1,0 +1,22 @@
+{
+  "name": "ng-fx-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngularClass/ng-fx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngularClass/ng-fx/issues"
+  },
+  "homepage": "https://github.com/AngularClass/ng-fx#readme",
+  "dependencies": {
+    "ng-fx": "^2.0.1"
+  }
+}
