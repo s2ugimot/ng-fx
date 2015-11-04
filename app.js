@@ -10,7 +10,7 @@ angular.module('app', [
   
 ])
 .config(function($mdThemingProvider, $sceDelegateProvider, $locationProvider) {
-  $locationProvider.html5mode(true);
+  $locationProvider.html5Mode(true);
   $mdThemingProvider.theme('default')
     .primaryPalette('blue-grey')
     .accentPalette('cyan');
