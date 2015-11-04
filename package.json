@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/AngularClass/ng-fx#readme",
   "dependencies": {
+    "angular": "^1.4.7",
+    "angular-animate": "^1.4.7",
+    "angular-aria": "^1.4.7",
+    "angular-material": "^0.11.4",
+    "angular-ui-router": "^0.2.15",
     "ng-fx": "^2.0.3"
   }
 }
