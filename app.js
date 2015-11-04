@@ -9,7 +9,8 @@ angular.module('app', [
   'app.ngRepeat'
   
 ])
-.config(function($mdThemingProvider, $sceDelegateProvider) {
+.config(function($mdThemingProvider, $sceDelegateProvider, $locationProvider) {
+  $locationProvider.html5mode(true);
   $mdThemingProvider.theme('default')
     .primaryPalette('blue-grey')
     .accentPalette('cyan');
